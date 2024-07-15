@@ -1,0 +1,118 @@
+@charset "UTF-8" ;
+
+:root {
+    --main-color: #336679
+}
+ html {
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+body {
+    height: 100vh;
+    background: url(../Imagens/evee-wallpaper.png) no-repeat 65% bottom ;
+    background-size: cover;
+}
+
+
+/*Imagem*/
+.background-imagem {
+    background: linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5)), url(../Imagens/red-2.jpg) no-repeat center bottom ;
+    background-size: cover;
+    height: 5rem;
+    margin: 3rem 3rem 0rem 3rem;
+    margin-top: 20vh;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0 8px 32px rgba(0,0,0, 1);
+
+}
+/*Formulário*/
+
+.formulario {
+    margin: 0rem 3rem 0rem 3rem;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    display: block;
+    position: relative;
+    padding: 20px;
+
+}
+
+.formulario p {
+    color: var(--main-color);
+}
+
+.window {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+    width: 20.625rem;
+    margin: 0rem 0rem 0rem 0rem;
+    border-radius: 0px 0px 20px 20px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    box-shadow: 0 8px 32px rgba(0,0,0, 1);
+    z-index: -1;
+    
+}
+input {
+    background-color: var(--main-color);    
+    color:rgb(255, 255, 255);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    height: 2rem;
+    width: 15rem;
+    border-radius: 10px;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#forgot-password {
+    text-align: left;
+    margin-left: 1.8rem;
+}
+
+#line-father {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#line-style {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #376679;
+
+}
+
+
+#button-style {
+    margin-top: 20px;
+    width: 10rem;
+    font-size: 1.1rem;
+}
+
+input::placeholder {
+    color: white;
+    padding-left: 15px;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+#text-social {
+    font-size: 22px;
+}
+
+.icon-login {
+    width: 3rem;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: 20px 5px 5px 5px;
+}
