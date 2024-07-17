@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* Desktop */
+@media screen and (min-width: 1023px) {
+    /* Imagem */
+    .background-imagem {
+        width: 28.125rem;
+        height: 28rem;
+        border-radius: 20px 0px 0px 20px;
+
+    }
+    
+    /* Formulário */
+
+    .formulario {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 28.125rem;
+
+    }
+
+    input {
+        width: 20rem;
+    }
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* Imagem */
+    .background-imagem {
+        width: 20rem;
+        height: 25rem;
+        border-radius: 20px 0px 0px 20px;
+
+    }
+    
+    /* Formulário */
+
+    .formulario {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20rem;
+        height: 25rem;
+    }
+
+    #button-style {
+        margin-bottom: 20px;
+    }
+}
