@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.background-imagem {
+    background: url(../Imagens/iniciais.png) no-repeat top;
+    background-size: cover;
+    }
+
+    input {
+        margin-top: 1px;
+    }
+
+    #name {
+        margin-top: 15px;
+    }
+
+    .formulario p {
+        margin-bottom: 20px;
+    }
